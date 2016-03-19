@@ -1,0 +1,161 @@
+body{
+	padding-top:50px;
+	margin:0px;
+}
+section{
+	padding:50px 0px;
+}
+
+nav{
+	font-family:"Patua One";
+	background-color:#0c232d;
+	border-bottom:1px solid #fdb909;
+	height:60px;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+}
+.logo a{
+	display: inline-block;
+	padding-top:15px;
+	padding-left:40px;
+	color:white;
+	font-family:"Patua One";
+	font-size:25px;
+}
+nav a{
+	color:white;
+	text-decoration:none;
+}
+nav li{
+	display:inline-block;
+	padding-right:20px;
+	font-size:12px;
+}
+nav ul{
+	position:absolute;
+	float:right;
+	right:40px;
+	top:5px;
+}
+header{
+	background-attachment:fixed;
+	background-image:url(../img/sky.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-position:100% 100%;
+	color:#fff;
+	height:600px;
+	text-align:center;
+	padding-top:15%;
+	border-bottom:20px solid #0c232d;
+	box-shadow:0px 0px 5px #888888;
+	font-family:"Patua One";
+}
+span{
+	color:#fdb909;
+}
+h1{
+	font-size:50px;
+}
+header p{
+	font-family:"raleway", "sans-serif";
+	font-size:25px;
+	margin:10px;
+}
+input{
+	padding:10px;
+	border:none;
+	padding-right:10%;
+	padding-left:10%;
+}
+.button{
+	background-color:#fdb909;
+	border:none;
+	color:white;
+	padding:10px;
+	padding-right:30px;
+	padding-left:30px;
+	font-size:12px;
+	font-family:"Patua One";
+}
+.socialicons{
+	margin-top:60px;
+}
+.socialicons a{
+	padding:10px;
+	font-size:25px;
+	color:white;
+	border-radius:50%;
+	text-decoration:none;
+}
+.content{
+	background-color:#fdb909;
+	padding:10%;
+	text-align:center;
+}
+.content h2{
+	color:white;
+	text-align:center;
+	width:50%;
+	display: inline-block;
+	font-family:"Patua One";
+	font-size:30px;
+	line-height:40px;
+	letter-spacing:2px;
+}
+.icon{
+	font-family:"Patua One";
+	font-size:30px;
+	color:#252018;
+	text-decoration:none;
+	text-align:center;
+}
+.icon a{
+	text-decoration:none;
+	color:#252018;
+	text-align:center;
+}
+
+.work{
+	text-align:center;
+	font-family:"Patua One";
+}
+.images h5{
+	text-align:left;
+}
+.images p{
+	text-align:justify;
+	font-size:10px;
+}
+.images{
+	width:15%;
+	display:inline-block;
+	margin:25px 10px;
+	padding:0 0 2px;
+}
+footer{
+	background-color:#0c232d;
+	padding:5%;
+	text-align:center;
+	font-family:"raleway", "sans-serif";
+	color:white;
+	line-height:20px;
+}
+textarea{
+	padding:0 9.7% 0 9.7%;
+}
+
+.contactform button{
+	background-color:#fdb909;
+	border:none;
+	color:white;
+	padding:10px;
+	padding-right:30px;
+	padding-left:30px;
+	font-size:12px;
+	font-family:"Patua One";
+	margin:20px;
+
+}
