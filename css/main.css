@@ -146,7 +146,6 @@ footer{
 textarea{
 	padding:0 9.7% 0 9.7%;
 }
-
 .contactform button{
 	background-color:#fdb909;
 	border:none;
@@ -158,4 +157,36 @@ textarea{
 	font-family:"Patua One";
 	margin:20px;
 
+}
+@media (max-width:768px){
+.images{
+	width:70%;
+}
+.images p, .images h5{
+	display:none;
+}
+.content h2{
+	width:100%;
+}
+h1{
+	font-size:35px;
+}
+header{
+	height:400px;
+}
+@media (max-width:736px){
+nav ul{
+	display:none;
+}
+.logo a{
+	padding-left:0px;
+	display:inherit;
+	text-align:center;
+}
+header{
+	height:350px;
+}
+.content h2{
+	font-size:20px;
+	line-height:30px;
 }
